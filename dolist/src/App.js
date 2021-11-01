@@ -23,7 +23,7 @@ const changeName = () => {
 
 
 const handleDelete=(id)=>{
- ({setToDos.filter((toDos)=>toDos.did !==id)});
+  setToDos ({toDos.filter((toDos)=>toDos.did !==id)});
   };
 
 const update=(id)=>
